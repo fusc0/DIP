@@ -1,0 +1,81 @@
+/* Author : 황  현 */
+
+/* template.css */
+
+html, body { background: #747474; }
+body::-webkit-scrollbar { display: none; }
+
+/* navigation */
+.nav { width: 100%; height: 34px; display: block; background-color: #262626; border-bottom: 1px solid #BDBDBD; }
+.logo_layout { width: 170px; height: 30px; padding: 3px; float: left; }
+.logo { width: 48px; height: 28px; float: left; }
+.logo_dip { width: 120px; height: 100%; color: #fff; margin-left: 2px; float: left; font-size: 6px; }
+
+.saveBtn_layout { width: 150px; height: 28px; margin: 3px; float: right; position: absolute; right: 0; }
+.file { width: 100%; height: 100%; }
+.fileBtn { width: 100%; height: 100%; border-radius: 7px; color: #d55e2d; border: 0px solid #000; font-size: 14px; font-weight: bold; }
+
+/* left_fixed */
+.left { width: 11%; height: 100%; float: left; position: fixed; }
+
+.controller { width: 100%; height: 100%; margin-right: 10px; }
+.tools_layout { width: 100%; height: 100%; }
+.tools { width: 100%; height: 100%; background: #262626; text-align: center; padding: 7px 4px 7px 4px; overflow: auto; }
+.component { width: 96%; height: 26px; margin-top: 5px; color: #fff; margin-bottom: 3px; border: 1px solid #d55e2d; font-weight: 400; background-color: #333; outline: none; }
+.panel { width: 100%; height: 100%; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; }
+.panel img { width: 48px; height: 48px; margin-bottom: -5px; }
+.panel span { font-size: 12px; font-weight: 300; color: #fff; }
+
+.imageFile_layout { display: block; font-size: 10px; color: #000; text-decoration: none;  }
+.imageList::-webkit-scrollbar { display: none; }
+.imgUpload_btn { display: inline-block; }
+.imgUpload_btn label { display: inline-block; padding: .5em .75em; color: #999; line-height: normal; vertical-align: center; background-color: #fdfdfd; border: 1px solid #ebebeb; border-bottom-color: #e2e2e2; border-radius: .25em; }
+.imgUpload_btn input[type="file"] { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; clip: rect(0,0,0,0); border: 0; }
+
+.textWrap { width: 100%; height: 100%; }
+.tableWrap { width: 100%; height: 100%; }
+
+/* right */
+.right { width: 11%; height: 100%; right: 0; position: fixed; }
+.attribute_controller { width: 100%; height: 100%; right: 0; float: right;  }
+.attribute_controller_layout { width: 100%; height: 100%; background: #262626; overflow-y: scroll; }
+.attribute_controller_layout::-webkit-scrollbar { display: none; }
+
+.attribute { width: 100%; height: 50%; overflow: auto; padding: px 4px 6px 4px; border-bottom : solid 1px #ff6600; }
+.attribute::-webkit-scrollbar { display: none; }
+.slider_width { width: 100%; height: 2px; }
+.attribute_div { width: 100%; height: 80px; }
+.attribute_name { width : 100%; height: 20px; float: left; font-size: 12px; font-weight: bold; color: #EAEAEA; margin-left: 4px;}
+.input_wrap { width: 100%; margin: 0 auto; }
+.input_area { width: 48%; height: 20px; border: 1px solid #fff; background: #353535; color: #fff; margin-left: 3px; }
+.input_btn { width: 48%; height: 24px; text-align: center; margin-top: 4px; font-size: 10px; font-weight: bold; border: 1px solid #fff; border-left: 1px solid #353535; background: #333; color: #BDBDBD; }
+.attribute_blank {width: 100%; height: 20px; }
+#slider_width { width: 95%; height: 6px; padding-bottom: 5px; margin-left: 3px;}
+#slider_height { width: 95%; height: 6px; padding-bottom: 5px; margin-left: 3px;}
+#inputwidth { width: 48%; height: 20px; margin-left: 3px; }
+#amount_width { width: 48%; height: 24px; margin-top: -38px; float: right; background: #262626; margin-left: 3px; }
+#inputheight { width: 48%; height: 20px; margin-left: 3px; }
+#amount_height { width: 48%; height: 24px; margin-top: -38px; float: right; background: #262626; margin-left: 3px; }
+.jscolor { width: 47%; height: 18px; margin-left: 3px; }
+
+.directory { width: 98%; height: 49%; padding: 7px 2px 7px 2px; overflow: auto; }
+
+/* center */
+.center { width: 75%; height: 100%; margin: 0 auto; margin-top: -29px; }
+.center_layout { width: auto; height: 100%; margin: 0 auto; }
+.tabs { width: 70%; height: 34px; float: left; margin-left: 50px; overflow: hidden; }
+.tabLink { height: 100%; border-top-left-radius: 2px; border-top: 1px solid #BDBDBD; border-left: 1px solid #BDBDBD; float: left; transition: 0.3s; padding-left: 5%; padding-right: 5%; cursor: pointer; }
+.tabLink:hover{ background-color: #FAE0D4; }
+.tabClose { width: 15px; height: 100%; background-color: rgb(255, 102, 0); font-size: 10px; color: #fff; text-align: center; border-top: 1px solid #BDBDBD; float: left; cursor: pointer; padding-top: 7px; }
+.tabClose:hover { background-color: #FAE0D4; }
+.tabAdd { width: 20px; height: 100%; background-color: #FFBB00; text-align: center; border-top-right-radius: 2px; border: 1px solid #BDBDBD; float: left; cursor: pointer; padding-top: 4px; }
+
+.tabContent { width: 100%; height: 100%; display: none; border: 1px dotted rgb(255, 102, 0); background-color: #EAEAEA; overflow: auto; }
+.editor{ font-size: 14px; margin-top: auto; border: none; width: 100%; }
+
+.iframe { width: 100%; height: 100%; }
+
+.imageWrap { width: 50%; height: 40%; float: left; margin-top: 10px; }
+
+.imageList { width: 100%; height: 80%; overflow-y: scroll; }
+.imageAdd { width: 100%; height: 20%; }
