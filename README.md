@@ -1,4 +1,4 @@
-# DIP
+# DIP (Design In Programming)
 HTML document design service for general users who don't know HTML
 
 It is a tool that helps people who have no knowledge of HTML and CSS format to design HTML documents.
