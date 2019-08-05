@@ -9,4 +9,4 @@ You can stop and edit your HTML documents at any time.
 
 When the design is finished, the HTML document can be extracted.
 
-<iframe width="640" height="360" src="https://youtu.be/8iAdaSKS3yw" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+https://youtu.be/8iAdaSKS3yw
